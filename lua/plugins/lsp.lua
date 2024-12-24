@@ -117,6 +117,45 @@ return {
         },
         inlayHints = {
           enable = true,
+
+          parameterHints = {
+            enable = true,
+          },
+
+          bindingModeHints = {
+              enable = true,
+          },
+
+          chainingHints = {
+              enable = true,
+          },
+
+          closingBraceHints = {
+            enable = true,
+            minLines = 10,
+          },
+
+          closureReturnTypeHints = {
+              enable = true,
+          },
+
+          lifetimeElisionHints = {
+              enable = true,
+              useParameterNames = true,
+          },
+
+          reborrowHints = {
+            enable = true,
+          },
+
+          renderColons = true,
+
+          typeHints = {
+            enable = true,
+            hideNamedConstructor = false,
+            hideTypeConstructor = false,
+          },
+
         },
       }
     }));
